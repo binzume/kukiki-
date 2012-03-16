@@ -1,0 +1,11 @@
+&title:メニュー
+
+**メニュー
+
+-[[瓶詰堂|http://www.binzume.net/]]
+-[[kukiki-|http://www.binzume.net/library/kukiki.html]]
+-[[K-K's HomePage|http://www.chichibu.ne.jp/~kawahira/]]
+
+**最近の10件
+&list(10,time)
+([[ページ一覧|pagelist]])

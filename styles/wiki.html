@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang=ja>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel=STYLESHEET type="text/css" href="wiki.css">
+	<link rel="alternate" type="application/rss+xml" title="${TITLE}" href="list.rdf">
+	<title>${TITLE}</title>
+</head>
+<body>
+<!-- #CONFIG:TOP_HEADLINE=1 -->
+
+<h1><img src="logo.jpg" alt="LOGO">${TITLE}</h1>
+
+
+<div>
+
+<div id="col_left">
+<!-- #MOD:mod_login -->
+<!-- #TEXT:menu -->
+</div>
+
+<div id="col_right">
+
+<!-- #IF login -->
+<div class="menu"> [
+ <a href="${URL}">トップ</a> |
+ <a href="?edit">編集</a> |
+ <a href="?edit&mode=new">新規</a> |
+ <a href="?attach">アップロード</a> |
+ <a href="?config">設定</a> |
+ <a href="http://www.binzume.net/library/kukiki">ヘルプ</a> |
+ <a href="?logout">ログアウト</a> ]
+</div>
+<!-- #ENDIF -->
+
+
+<div id="text">
+<!-- TEXT_START -->
+<!-- #TEXT -->
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>

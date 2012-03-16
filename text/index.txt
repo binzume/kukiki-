@@ -1,0 +1,6 @@
+
+*FrontPage
+
+サイトのFrontPageです．ログインして編集してください．
+
+このサイトは[[kukiki-|http://www.binzume.net/]]で構成されています．

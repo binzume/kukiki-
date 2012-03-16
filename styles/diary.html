@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang=ja>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel=STYLESHEET type="text/css" href="diary.css">
+	<link rel="alternate" type="application/rss+xml" title="${TITLE}" href='index.atom'>
+	<title>${TITLE}</title>
+</head>
+<body>
+
+<!-- #CONFIG:TOP_HEADLINE=2 -->
+
+<!-- #&navi -->
+
+
+<h1><a href="${URL}">${TITLE}</a></h1>
+
+<!-- #IF login -->
+<div class="menu">
+ ${USER}さん
+ [<a href="?edit&mode=newentry">記事投稿</a>]
+ [<a href="?attach">ファイル添付</a>]
+ [<a href="?config">設定</a>]
+ [<a href="http://www.binzume.net/library/kukiki.html">ヘルプ</a>]
+ [<a href="?logout">ログアウト</a>]
+</div>
+<!-- #ENDIF -->
+
+<div>
+
+
+<div class='cleft'>
+<!-- #TEXT:menu -->
+</div>
+
+<div class='cright'>
+<!-- #MOD:mod_login -->
+
+<!-- #MOD:mod_cal -->
+
+</div>
+
+<div class='ccenter'>
+<!-- TEXT_START -->
+<!-- #CONFIG:PARAGRAPH_LINK=1 -->
+<!-- #TEXT -->
+</div>
+
+</div>
+
+</body>
+</html>
